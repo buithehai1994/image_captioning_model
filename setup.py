@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='image_caption_package',  # The name of your package
+    name='image_captioning_model',  # The name of your package
     version='0.1.0',  # Version number
     packages=find_packages(),  # This will automatically discover your package files
     install_requires=[
