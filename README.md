@@ -12,7 +12,7 @@ pip install my_image_caption_package
 ## Usage
 
 ```python
-from my_image_caption import generate_caption
+from image_caption.predict import generate_caption
 
 caption = generate_caption("path_to_image.jpg")
 print(caption)
